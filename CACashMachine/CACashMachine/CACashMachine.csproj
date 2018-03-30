@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{90600FFA-CE32-44B8-AC84-256EA524D53C}</ProjectGuid>
+    <ProjectGuid>{5555988C-7651-4D84-B9ED-64920D7ADB13}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>CACashMachine</RootNamespace>
     <AssemblyName>CACashMachine</AssemblyName>
