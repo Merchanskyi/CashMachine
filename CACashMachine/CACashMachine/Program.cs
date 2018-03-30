@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CACashMachine
 {
@@ -10,6 +6,15 @@ namespace CACashMachine
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine($"Банкомат ПриРуслат24");
+                Console.ResetColor();
+
+                CashMachine.SignIn();
+            }
         }
     }
 }
